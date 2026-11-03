@@ -7,8 +7,6 @@
   <a href="https://universal-downloader-pro.vercel.app"><img src="https://img.shields.io/badge/OPEN%20PROJECT-Universal%20Downloader-101820?style=for-the-badge&amp;logo=vercel&amp;logoColor=72f4b0" alt="Universal Downloader Pro" /></a>
   <a href="https://github.com/lowlighter/metrics"><img src="https://img.shields.io/badge/PROFILE%20ENGINE-Lowlighter%20Metrics-101820?style=for-the-badge&amp;logo=githubactions&amp;logoColor=72f4b0" alt="Lowlighter Metrics" /></a>
 </p>
-
-<h2 align="center"><code>01 / OPERATOR PROFILE</code></h2>
 <p align="center"><strong>Lewis · @codelewix</strong><br/>
 Construyo productos digitales, automatizaciones y herramientas de seguridad.<br/>
 Me gusta convertir ideas complejas en software claro, útil y listo para usarse.</p>
