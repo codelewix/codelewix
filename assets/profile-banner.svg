@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">codelewix — systems in motion</title>
+  <desc id="desc">An animated cyber interface with luminous green, cyan and violet traces.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b12"/><stop offset=".55" stop-color="#0b1518"/><stop offset="1" stop-color="#111021"/></linearGradient>
+    <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#74f7b0"/><stop offset=".55" stop-color="#65d9ee"/><stop offset="1" stop-color="#bd83ff"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#40edaa" stop-opacity=".16"/><stop offset="1" stop-color="#40edaa" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#244039" stroke-width="1" opacity=".42"/></pattern>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="358" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="url(#backdrop)"/><rect width="1200" height="360" fill="url(#grid)"/>
+    <ellipse cx="280" cy="190" rx="390" ry="250" fill="url(#halo)"/>
+    <path d="M0 62H1200" stroke="#233d36"/><rect x="1" y="1" width="1198" height="358" rx="22" fill="none" stroke="#29483c"/>
+    <path d="M1 63H1199" stroke="url(#edge)" stroke-width="2" stroke-dasharray="150 1050" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-1200" dur="9s" repeatCount="indefinite"/></path>
+    <circle cx="31" cy="32" r="5.5" fill="#ff625a"/><circle cx="52" cy="32" r="5.5" fill="#ffc04a"/><circle cx="73" cy="32" r="5.5" fill="#54dd8a"/>
+    <text x="600" y="37" fill="#8aa59a" font-family="Consolas,Monaco,monospace" font-size="13" text-anchor="middle">CODELEWIX :: PERSONAL SYSTEMS INTERFACE</text>
+    <text x="78" y="130" fill="#71f4ad" font-family="Consolas,Monaco,monospace" font-size="14" letter-spacing="3">$ INIT PROFILE --MODE=BUILD</text>
+    <text x="72" y="213" fill="#f1f5f2" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="800" letter-spacing="8">CODELEWIX</text>
+    <rect x="493" y="158" width="5" height="62" rx="2" fill="#73f5b0" filter="url(#soft-glow)"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="1.3s" repeatCount="indefinite"/></rect>
+    <text x="80" y="260" fill="#c1d1ca" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" letter-spacing="4">SOFTWARE  /  AUTOMATION  /  SECURITY</text>
+    <text x="81" y="304" fill="#7a9588" font-family="Consolas,Monaco,monospace" font-size="13" letter-spacing="1.2">DESIGN THE SYSTEM. SHIP THE TOOL. ITERATE.</text>
+    <g fill="none" stroke-width="1.5"><path d="M817 115h96l36 36h145" stroke="#71f4ad" opacity=".8"/><path d="M848 169h65l34 34h147" stroke="#66dbee" opacity=".8"/><path d="M793 224h120l38 38h92" stroke="#bc86ff" opacity=".8"/><circle cx="1094" cy="151" r="4" fill="#71f4ad" stroke="none" filter="url(#soft-glow)"/><circle cx="1094" cy="203" r="4" fill="#66dbee" stroke="none" filter="url(#soft-glow)"/><circle cx="1043" cy="262" r="4" fill="#bc86ff" stroke="none" filter="url(#soft-glow)"/></g>
+    <path d="M1146 110v161M1138 118h16M1138 263h16" stroke="#3b6455" opacity=".8"/><text x="1128" y="300" fill="#678477" font-family="Consolas,Monaco,monospace" font-size="10" text-anchor="end">SYS.01 / ONLINE</text>
+    <rect x="0" y="-90" width="1200" height="36" fill="#ffffff" opacity=".025"><animateTransform attributeName="transform" type="translate" values="0 -30;0 430" dur="8s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
