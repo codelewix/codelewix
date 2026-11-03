@@ -11,12 +11,8 @@
 Construyo productos digitales, automatizaciones y herramientas de seguridad.<br/>
 Me gusta convertir ideas complejas en software claro, útil y listo para usarse.</p>
 <p align="center"><code>PRODUCT ENGINEERING</code> &nbsp; <code>AUTOMATION</code> &nbsp; <code>APPLICATION SECURITY</code></p>
-
-<h2 align="center"><code>02 / LIVE TELEMETRY</code></h2>
 <p align="center"><img src="./metrics.terminal.svg" alt="Live GitHub profile metrics in terminal style" width="100%" /></p>
 <p align="center"><img src="./metrics.activity.svg" alt="Language activity and contribution calendar" width="100%" /></p>
-
-<h2 align="center"><code>03 / SELECTED BUILDS</code></h2>
 <table>
   <tr>
     <td width="50%" valign="top">
